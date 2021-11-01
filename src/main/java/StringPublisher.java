@@ -25,7 +25,7 @@ public class StringPublisher implements Publisher {
             if(subScription.subscriber instanceof NumberSubscriber && hasPattern("[0-9]")) {
                 subScription.publish(text);
             }
-            if(subScription.subscriber instanceof SymbolSubscriber && hasPattern("[,!@#$%&*()_+=|<>?{}\\\\[\\\\]~-]")) {
+            if(subScription.subscriber instanceof SymbolSubscriber && hasPattern("\\p{Punct}")) {
                 subScription.publish(text);
             }
 
