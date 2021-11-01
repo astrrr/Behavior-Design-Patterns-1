@@ -11,10 +11,6 @@ abstract class StringSubscriber implements Subscriber {
     @Override
     public abstract void onNext(Object item);
 
-    @Override
-    public void onError(Throwable throwable) {
-
-    }
 
     @Override
     public void onComplete() {
