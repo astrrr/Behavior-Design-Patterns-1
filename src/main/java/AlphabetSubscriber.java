@@ -26,6 +26,6 @@ public class AlphabetSubscriber extends StringSubscriber {
 
     @Override
     public void onComplete() {
-
+        System.out.println("Alphabet complete");
     }
 }
