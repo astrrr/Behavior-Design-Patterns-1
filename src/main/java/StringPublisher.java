@@ -28,6 +28,7 @@ public class StringPublisher implements Publisher {
             if(subScription.subscriber instanceof SymbolSubscriber && hasPattern("[,!@#$%&*()_+=|<>?{}\\\\[\\\\]~-]")) {
                 subScription.publish(text);
             }
+
         }
     }
 

@@ -26,6 +26,6 @@ public class NumberSubscriber extends StringSubscriber{
 
     @Override
     public void onComplete() {
-
+        System.out.println("Number complete");
     }
 }

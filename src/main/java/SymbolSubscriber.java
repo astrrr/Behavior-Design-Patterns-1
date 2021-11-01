@@ -25,6 +25,6 @@ public class SymbolSubscriber extends StringSubscriber{
 
     @Override
     public void onComplete() {
-
+        System.out.println("Symbol complete");
     }
 }
